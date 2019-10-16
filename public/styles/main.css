@@ -1,0 +1,89 @@
+/* Fuente SFPro en todos sus pesos 😎*/
+@font-face {
+    font-family: 'SFPro';
+    src: url('/fonts/sfpro/SFProText-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFPro';
+    src: url('/fonts/sfpro/SFProText-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFPro';
+    src: url('/fonts/sfpro/SFProText-Heavy.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFPro';
+    src: url('/fonts/sfpro/SFProText-Semibold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFPro';
+    src: url('/fonts/sfpro/SFProText-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFPro';
+    src: url('/fonts/sfpro/SFProText-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFPro';
+    src: url('/fonts/sfpro/SFProDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+*, body, html{
+    font-family: 'SFPro', Arial !important;
+}
+.centered{
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.flexCont .divCerts{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 3em;
+}
+.divCerts img {
+    max-width: 70px;
+    margin-right: 15px;
+}
+.btn{
+    background: black !important;
+    color: white !important;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    text-transform: inherit;
+    font-size: 15px;
+    font-weight: 300 !important;
+    letter-spacing: 0px;
+    padding: 12px !important;
+    font-weight: 500 !important;
+    text-decoration: none;
+}
+.cuatrocero{
+    font-size: 12em;
+    margin: 0;
+}
